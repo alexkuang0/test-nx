@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@smartprep-fe/react-hooks": ["libs/react-hooks/src/index.ts"],
-      "@smartprep-fe/ui": ["libs/ui/src/index.ts"]
+      "@smartprep-fe/ui": ["libs/ui/src/index.ts"],
+      "@smartprep-fe/utils": ["libs/utils/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
