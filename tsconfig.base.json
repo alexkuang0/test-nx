@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@smartprep-fe/react-hooks": ["libs/react-hooks/src/index.ts"],
       "@smartprep-fe/ui": ["libs/ui/src/index.ts"]
     }
   },

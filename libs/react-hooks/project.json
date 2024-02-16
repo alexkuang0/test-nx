@@ -1,0 +1,19 @@
+{
+  "name": "react-hooks",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/react-hooks/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/vite:build",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/react-hooks",
+        "main": "libs/react-hooks/src/index.ts",
+        "tsConfig": "libs/react-hooks/tsconfig.lib.json",
+        "assets": ["libs/react-hooks/*.md"]
+      }
+    }
+  },
+  "tags": []
+}

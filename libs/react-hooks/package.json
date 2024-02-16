@@ -1,0 +1,10 @@
+{
+  "name": "@smartprep-fe/react-hooks",
+  "version": "0.0.1",
+  "dependencies": {
+    "usehooks-ts": "^2.14.0"
+  },
+  "main": "./index.js",
+  "module": "./index.mjs",
+  "typings": "./index.d.ts"
+}
