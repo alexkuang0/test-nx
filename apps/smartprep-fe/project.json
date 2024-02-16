@@ -1,0 +1,8 @@
+{
+  "name": "smartprep-fe",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/smartprep-fe/src",
+  "projectType": "application",
+  "targets": {},
+  "tags": []
+}
