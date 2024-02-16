@@ -3,6 +3,15 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
   "sourceRoot": "apps/example-e2e/src",
-  "targets": {},
+  "targets": {
+    "typecheck": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": ["tsc -p tsconfig.json --noEmit"],
+        "cwd": "apps/example-e2e",
+        "forwardAllArgs": false
+      }
+    }
+  },
   "implicitDependencies": ["example"]
 }
